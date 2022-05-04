@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>netstandard2.0</TargetFramework>
+	  <PackageId>Hwl.EmailMessage</PackageId>
+	  <Version>2.0.0</Version>
+	  <Authors>tuantruong.ngo</Authors>
+	  <Company>Hanwha Life VietNam</Company>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Core" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hwl.RabbitMq.Core\Hwl.RabbitMQ.Core.csproj" />
+  </ItemGroup>
+
+</Project>
